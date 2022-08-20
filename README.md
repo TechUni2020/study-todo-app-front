@@ -71,7 +71,7 @@
 4. TailwindCSS
 
     ```
-    pnpm add  -D tailwindcss postcss autoprefixer  npx tailwindcss init -p
+    pnpm add -D tailwindcss postcss autoprefixer && npx tailwindcss init -p
     ```
 
     ```typescript
@@ -82,10 +82,13 @@
     module.exports = {
       content: [
         "./pages/**/*.{js,ts,jsx,tsx}",
-        "./components/**/*.{js,ts,jsx,tsx}",   ],
+        "./components/**/*.{js,ts,jsx,tsx}",
+      ],
       theme: {
         extend: {},
-      },   plugins: [], }
+      },
+      plugins: [],
+    }
 
     // /styles/globals.css
     @tailwind base;
