@@ -95,3 +95,14 @@
     // ローカルサーバー起動
     pnpm dev
     ```
+    
+### Todoアプリ作成
+
+   - 作成アプリのデザイン
+   https://www.figma.com/community/file/1142725149013667288
+   
+      <img width="886" alt="スクリーンショット 2022-08-20 16 43 45" src="https://user-images.githubusercontent.com/87469023/185734914-c6fc828b-7805-4e93-8083-489c2e808981.png">
+      
+      ⚠️ 作成者は初めてFigmaを使って作成したのと、デザインに疎いのでそこら辺はご了承ください🙇‍♂️
+
+
